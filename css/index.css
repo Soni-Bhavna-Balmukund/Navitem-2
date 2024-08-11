@@ -135,25 +135,40 @@ body{
 
 @media screen and (max-width: 360px)and (min-width: 320px){
     .navigation ul li:nth-child(1).active~.indicator{
-        left: 15px;
+        left: 20px;
         transform: rotate(45deg);
     }
     .navigation ul li:nth-child(2).active~.indicator{
-        left: 85px;
+        left: 75px;
         transform: rotate(135deg);
     }
     .navigation ul li:nth-child(3).active~.indicator{
-        left: 155px;
+        left: 130px;
         transform: rotate(225deg);
     }
     .navigation ul li:nth-child(4).active~.indicator{
-        left: 225px;
+        left: 186px;
         transform: rotate(315deg);
     }
     .navigation ul li:nth-child(5).active~.indicator{
-        left: 295px;
+        left: 242px;
         transform: rotate(405deg);
     }  
+    .navigation{
+        width: 315px;
+    }
+    .navigation ul{
+        justify-content: center;
+       }
+       .navigation .list{
+        width: 55px;
+        height: 70px;
+       }
+       .indicator{
+        width: 55px;
+        height: 55px;
+        top: -39%;
+       }
 }
 
 @media screen and (max-width: 320px){
