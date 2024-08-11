@@ -110,7 +110,7 @@ body{
     transform: rotate(405deg);
 }
 
-@media screen and (max-width: 378px)and (min-width: 320px){
+@media screen and (max-width: 378px)and (min-width: 350px){
     .navigation ul li:nth-child(1).active~.indicator{
         left: 15px;
         transform: rotate(45deg);
@@ -130,10 +130,32 @@ body{
     .navigation ul li:nth-child(5).active~.indicator{
         left: 295px;
         transform: rotate(405deg);
-    }
-    
-   
+    }  
 }
+
+@media screen and (max-width: 360px)and (min-width: 320px){
+    .navigation ul li:nth-child(1).active~.indicator{
+        left: 15px;
+        transform: rotate(45deg);
+    }
+    .navigation ul li:nth-child(2).active~.indicator{
+        left: 85px;
+        transform: rotate(135deg);
+    }
+    .navigation ul li:nth-child(3).active~.indicator{
+        left: 155px;
+        transform: rotate(225deg);
+    }
+    .navigation ul li:nth-child(4).active~.indicator{
+        left: 225px;
+        transform: rotate(315deg);
+    }
+    .navigation ul li:nth-child(5).active~.indicator{
+        left: 295px;
+        transform: rotate(405deg);
+    }  
+}
+
 @media screen and (max-width: 320px){
     .navigation ul li:nth-child(1).active~.indicator{
         left: 18px;
